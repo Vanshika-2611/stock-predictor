@@ -1,0 +1,44 @@
+2025-07-04 21:45:44,681 - INFO - Training requested for AAPL
+2025-07-04 21:45:47,838 - ERROR - Training failed
+Traceback (most recent call last):
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\main.py", line 39, in train
+    train_model(symbol)
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\model.py", line 45, in train_model
+    model = tf.keras.models.Sequential([
+            ^^^^^^^^
+AttributeError: module 'tensorflow' has no attribute 'keras'
+2025-07-04 21:47:56,053 - INFO - Training requested for AAPL
+2025-07-04 21:48:04,339 - ERROR - 
+1 Failed download:
+2025-07-04 21:48:04,339 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 21:48:04,377 - ERROR - Training failed
+Traceback (most recent call last):
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\main.py", line 39, in train
+    train_model(symbol)
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\model.py", line 33, in train_model
+    raise Exception("Could not fetch or process stock data.")
+Exception: Could not fetch or process stock data.
+2025-07-05 11:20:22,813 - INFO - Training requested for AAPL
+2025-07-05 11:20:29,559 - ERROR - Training failed
+Traceback (most recent call last):
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\main.py", line 39, in train
+    train_model(symbol)
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\model.py", line 45, in train_model
+    model = tf.keras.models.Sequential([
+            ^^^^^^^^
+AttributeError: module 'tensorflow' has no attribute 'keras'
+2025-07-05 11:35:39,530 - INFO - Training requested for AAPL
+2025-07-05 11:35:46,837 - ERROR - Prediction failed
+Traceback (most recent call last):
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\main.py", line 50, in predict
+    if not model_exists(symbol):
+           ^^^^^^^^^^^^
+NameError: name 'model_exists' is not defined
+2025-07-05 11:42:41,763 - INFO - Training requested for INFO
+2025-07-05 11:42:47,333 - INFO - Prediction request received for INFO
+2025-07-05 11:42:47,333 - ERROR - Prediction error: Model not found. Train it first.
+2025-07-05 11:42:47,334 - ERROR - Prediction failed
+Traceback (most recent call last):
+  File "C:\Users\Vanshika\Videos\WebDev\stock-prediction-website\backend\main.py", line 54, in predict
+    raise HTTPException(status_code=400, detail=result["error"])
+fastapi.exceptions.HTTPException: 400: Model not found. Train it first.

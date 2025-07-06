@@ -1,0 +1,38 @@
+2025-07-04 21:04:55,614 - INFO - Training request received for AAPL
+2025-07-04 21:05:02,613 - ERROR - 
+1 Failed download:
+2025-07-04 21:05:02,613 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 21:05:02,917 - INFO - Train result: {'error': 'Could not fetch data.'}
+2025-07-04 21:05:12,640 - INFO - Prediction request received for AAPL
+2025-07-04 21:05:12,641 - INFO - Prediction result keys: ['error']
+2025-07-05 11:47:46,194 - INFO - Training requested for INFO
+2025-07-05 11:50:14,141 - INFO - Prediction request received for AAPL
+2025-07-05 11:50:14,801 - ERROR - Prediction error: Could not fetch or process stock data: Alpha Vantage returned no data. Possibly rate-limited or invalid symbol.
+2025-07-05 11:50:24,429 - INFO - Prediction request received for AAPL
+2025-07-05 11:50:25,452 - ERROR - Prediction error: Could not fetch or process stock data: Alpha Vantage returned no data. Possibly rate-limited or invalid symbol.
+2025-07-05 11:56:34,876 - INFO - Training requested for MSFT
+2025-07-05 11:56:50,865 - INFO - Training requested for TSLA
+2025-07-05 12:02:03,657 - INFO - Training requested for AAPL
+2025-07-05 12:03:47,657 - INFO - Training requested for AAPL
+2025-07-05 12:05:58,068 - INFO - Training requested for AAPL
+2025-07-05 12:07:12,335 - INFO - Training requested for AAPL
+2025-07-05 12:08:33,524 - INFO - Training requested for AAPL
+2025-07-05 12:09:57,407 - INFO - Training requested for AAPL
+2025-07-05 12:21:05,650 - INFO - Training requested for AAPL
+2025-07-05 12:30:14,099 - INFO - Training requested for AAPL
+2025-07-05 12:31:48,904 - INFO - Training requested for TSLA
+2025-07-05 12:33:00,488 - INFO - Training requested for AAPL
+2025-07-05 12:35:12,312 - INFO - Training requested for AAPL
+2025-07-05 12:38:28,931 - INFO - Prediction request received for TSLA
+2025-07-05 12:38:29,947 - ERROR - Prediction error: Could not fetch or process stock data: Alpha Vantage API error: No 'Time Series (Daily)' in response
+2025-07-05 12:50:01,880 - INFO - Prediction request received for TSLA
+2025-07-05 12:50:02,924 - ERROR - Prediction error: Could not fetch or process stock data: Alpha Vantage API error: No 'Time Series (Daily)' in response
+2025-07-05 12:51:35,216 - INFO - Prediction request received for TSLA
+2025-07-05 12:51:36,209 - ERROR - Prediction error: Could not fetch or process stock data: Alpha Vantage API error: No 'Time Series (Daily)' in response
+2025-07-05 12:52:29,818 - INFO - Prediction request received for TSLA
+2025-07-05 12:52:30,967 - ERROR - Prediction error: Could not fetch or process stock data: Alpha Vantage API error: No 'Time Series (Daily)' in response
+2025-07-05 13:02:24,472 - INFO - Training requested for TSLA
+2025-07-05 13:04:42,884 - INFO - Training requested for TSLA
+2025-07-05 13:04:43,431 - INFO - Training completed: {'error': "Could not fetch or process stock data: Alpha Vantage API error: No 'Time Series (Daily)' in response"}
+2025-07-05 13:05:09,641 - INFO - Prediction request received for TSLA
+2025-07-05 13:05:10,782 - INFO - Prediction successful
