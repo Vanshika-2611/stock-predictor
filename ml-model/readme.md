@@ -17,5 +17,4 @@ A full-stack web application for predicting and analyzing stock performance.
 - Admin dashboard
 - Model training and loading
 
-## How to Run
-Instructions here...
+
